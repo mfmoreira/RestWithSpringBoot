@@ -52,7 +52,7 @@ public class PersonController {
 		return personVO;
 	}
 
-	//@CrossOrigin(origins = { "http://localhost:8080", "http://www.erudio.com.br"})
+	//@CrossOrigin(origins = { "http://localhost:8080", "http://www.odeveza.com.br"})
 	@ApiOperation(value = "Create a new person")
 	@PostMapping(produces = { "application/json", "application/xml ", "application/x-yaml" }, consumes = {
 			"application/json", "application/xml", "application/x-yaml" })
